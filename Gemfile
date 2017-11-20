@@ -50,3 +50,16 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+# ---------------------------------------------------------
+# manually added gems
+
+# added during set up,
+# installed locally, but commented out of Gemfile for now
+# gem 'rubocop'
+# gem 'rspec'
+# gem 'pundit'  # dependencies: rspec, rubocop
+# gem 'devise'
+
+
